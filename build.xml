@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="MobileBanking" basedir="." default="all">
+<project name="webapp" basedir="." default="all">
    
 	<property environment="env" />
 	<property file="build.properties"/>
@@ -37,7 +37,7 @@
 	</target>
 	
 	<target name="package" >
-		<war basedir="${web.dir}" destfile="${war.dir}/mobilebanking.war"/>
+		<war basedir="${web.dir}" destfile="${war.dir}/webapp.war"/>
 		</target>
 
 	<!-- <target name="all" depends="delete,init,compile_project,package" /> -->
