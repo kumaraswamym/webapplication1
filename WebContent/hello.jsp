@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>ShopWeb Application JSP Page</title>
+    <title>Web Application JSP Page</title>
   </head>
 
   <body bgcolor=white>
@@ -17,7 +17,7 @@
   </table>
 
   <br />
-  <p>This is the output of a JSP page that is part of the ShopWeb Application.</p>
+  <p>This is the output of a JSP page that is part of the Web Application.</p>
 
   <%= new String("Hello!") %>
 
